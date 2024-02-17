@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+}
+
+.logo {
+  font-size: 0.7rem;
+}
+.services a:hover {
+  color: brown;
+}
+
+.btn {
+  background-color: brown;
+}
+
+.content {
+  text-align: center;
+}
+.content h1 {
+  font-size: 150px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10rem;
+  transition: 0.5s;
+}
+.content h1:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+#row1 {
+  margin-top: 21rem !important;
+}
+
+#title-1 {
+  font-size: 5.9rem;
+}
+
+#slider {
+  border-radius: 300px 0px 0px 0px;
+}
+#img-1 {
+  margin-top: 10rem;
+  border-radius: 40% 40% 0% 0%;
+}
+
+#part-2 {
+  margin-top: 10rem;
+  height: 100%;
+}
+
+#pragraf {
+  height: 100%;
+}
+#part-2 h1 {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+#manues {
+  margin-top: 10rem;
+}
+
+#desktop {
+  position: relative;
+
+  left: 50%;
+}
+
+#footer {
+  padding: 7rem;
+}
+#footer2 {
+  display: flex !important;
+
+  position: relative;
+  left: 3rem !important;
+  top: 2rem !important;
+}
+#footer2 a {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#footer3 a {
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important;
+  }
+  .content h1 {
+    font-size: 100px;
+    margin-top: 8rem;
+  }
+  #manues {
+    margin-top: 2rem !important;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #title-1 {
+    font-size: 4rem;
+  }
+  #row1 {
+    margin-top: 12rem !important;
+  }
+  #img-1 {
+    margin-top: 10rem;
+    border-radius: 25% 25% 25% 25%;
+    height: 25%;
+  }
+  #pragraf h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+  }
+  #opctions {
+    margin-top: -30px !important;
+  }
+
+  #part-2 {
+    margin-top: -50rem !important;
+  }
+  #desktop {
+    position: relative;
+    left: 0%;
+  }
+  #footer2 {
+    margin-top: -12px !important;
+    text-align: center;
+    position: relative;
+    left: 0px !important;
+    top: px !important;
+  }
+  #hr {
+    margin-top: 3rem !important;
+  }
+}
+#pragraf {
+  margin-top: 10rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #row1 {
+    margin-top: 47rem !important;
+  }
+  #title-1 {
+    font-size: 4rem !important;
+  }
+  #img-1 {
+    height: 35% !important;
+  }
+  #pragraf {
+    margin-top: -10rem;
+    margin-left: 8rem !important;
+    width: 18rem !important;
+  }
+  #part-2 {
+    margin-top: 2rem !important;
+  }
+  #desktop {
+    position: relative;
+    left: 0%;
+  }
+}
